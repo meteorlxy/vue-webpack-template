@@ -2,7 +2,7 @@
   <div id="app">
     Hello, world!
 
-    <MyComponent/>
+    <MyComponent />
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   name: 'App',
 
   components: {
-    MyComponent
+    MyComponent,
   },
 
   mixins: [],
@@ -36,6 +36,6 @@ export default {
   },
 
   methods: {
-  }
+  },
 }
 </script>

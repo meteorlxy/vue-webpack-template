@@ -1,15 +1,19 @@
 module.exports = {
   root: true,
+
   parser: 'vue-eslint-parser',
+
   parserOptions: {
     parser: 'babel-eslint',
     sourceType: 'module',
     allowImportExportEverywhere: false
   },
+
   extends: [
     'standard',
     'plugin:vue/strongly-recommended'
   ],
+
   settings: {
     'import/resolver': {
       webpack: {
@@ -17,4 +21,8 @@ module.exports = {
       },
     },
   },
+
+  rules: {
+    'comma-dangle': ['error', 'always-multiline'],
+  }
 }
